@@ -1,0 +1,1532 @@
+{
+  "started_at": "2026-10-13T18:46:56.019216+00:00",
+  "slots": {
+    "3-isolated-1": "20261013T184656-isolated-02db5137",
+    "3-isolated-2": "20261013T184656-isolated-8529dccc",
+    "3-isolated-3": "20261013T184656-isolated-6510e756",
+    "3-single-1": "20261013T184714-single-355e8fa8",
+    "3-single-2": "20261013T184717-single-3f60c118",
+    "3-single-3": "20261013T184717-single-b1cdbc78",
+    "8-isolated-1": "20261013T184755-isolated-4b1d5491",
+    "8-isolated-2": "20261013T184758-isolated-95f46ad6",
+    "8-isolated-3": "20261013T184817-isolated-5c0fe014",
+    "8-single-1": "20261013T184842-single-6a6d29af",
+    "8-single-2": "20261013T184848-single-73b11c97",
+    "8-single-3": "20261013T184912-single-5029baf1",
+    "15-isolated-1": "20261013T185007-isolated-de612e19",
+    "15-isolated-2": "20261013T185109-isolated-3164f33c",
+    "15-isolated-3": "20261013T185115-isolated-f95dd73b",
+    "15-single-1": "20261013T185131-single-3b4becff",
+    "15-single-2": "20261013T185233-single-a559fa9a",
+    "15-single-3": "20261013T185238-single-2e210dbc",
+    "change-8-isolated-1": "20261013T185603-isolated-28f6f486",
+    "change-8-isolated-2": "20261013T185648-isolated-38e3ca62",
+    "change-8-isolated-3": "20261013T185652-isolated-77ac8f78"
+  },
+  "status": "已完成",
+  "prompt_hash": "30f545d9b8273e39d8489e7a6ff960799357302a89cef7039d1b37342464942e",
+  "metrics": {
+    "3-isolated": {
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 1.0,
+      "C5": 0.9506172839506173,
+      "C6": 0.9444444444444444,
+      "C7": 0.0,
+      "silent_numbers": 0,
+      "C8": 0,
+      "cross_rate": 0.0,
+      "counts": {
+        "correct_fields": 77,
+        "fields": 81,
+        "filled": 81,
+        "valid_sources": 81,
+        "sources": 81,
+        "faithful": 402,
+        "facts": 402,
+        "invented": 0,
+        "silent_numbers": 0,
+        "cross": 0,
+        "correct_traps": 17,
+        "traps": 18,
+        "parser_calls": 38,
+        "parser_success": 38
+      },
+      "leakage_attempts": 0,
+      "run_ids": [
+        "20261013T184656-isolated-02db5137",
+        "20261013T184656-isolated-8529dccc",
+        "20261013T184656-isolated-6510e756"
+      ]
+    },
+    "3-single": {
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 1.0,
+      "C5": 0.5679012345679012,
+      "C6": 0.6666666666666666,
+      "C7": 0.0,
+      "silent_numbers": 0,
+      "C8": 0,
+      "cross_rate": 0.0,
+      "counts": {
+        "correct_fields": 46,
+        "fields": 81,
+        "filled": 47,
+        "valid_sources": 47,
+        "sources": 47,
+        "faithful": 185,
+        "facts": 185,
+        "invented": 0,
+        "silent_numbers": 0,
+        "cross": 0,
+        "correct_traps": 12,
+        "traps": 18,
+        "parser_calls": 51,
+        "parser_success": 51
+      },
+      "leakage_attempts": 64,
+      "run_ids": [
+        "20261013T184714-single-355e8fa8",
+        "20261013T184717-single-3f60c118",
+        "20261013T184717-single-b1cdbc78"
+      ]
+    },
+    "8-isolated": {
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.9685816876122083,
+      "C5": 0.9788359788359788,
+      "C6": 0.9230769230769231,
+      "C7": 0.0,
+      "silent_numbers": 0,
+      "C8": 0,
+      "cross_rate": 0.0,
+      "counts": {
+        "correct_fields": 185,
+        "fields": 189,
+        "filled": 189,
+        "valid_sources": 189,
+        "sources": 189,
+        "faithful": 1079,
+        "facts": 1114,
+        "invented": 0,
+        "silent_numbers": 0,
+        "cross": 0,
+        "correct_traps": 36,
+        "traps": 39,
+        "parser_calls": 129,
+        "parser_success": 129
+      },
+      "leakage_attempts": 46,
+      "run_ids": [
+        "20261013T184755-isolated-4b1d5491",
+        "20261013T184758-isolated-95f46ad6",
+        "20261013T184817-isolated-5c0fe014"
+      ]
+    },
+    "8-single": {
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 1.0,
+      "C5": 0.8042328042328042,
+      "C6": 0.7948717948717948,
+      "C7": 0.0,
+      "silent_numbers": 0,
+      "C8": 0,
+      "cross_rate": 0.0,
+      "counts": {
+        "correct_fields": 152,
+        "fields": 189,
+        "filled": 154,
+        "valid_sources": 154,
+        "sources": 154,
+        "faithful": 790,
+        "facts": 790,
+        "invented": 0,
+        "silent_numbers": 0,
+        "cross": 0,
+        "correct_traps": 31,
+        "traps": 39,
+        "parser_calls": 136,
+        "parser_success": 136
+      },
+      "leakage_attempts": 108,
+      "run_ids": [
+        "20261013T184842-single-6a6d29af",
+        "20261013T184848-single-73b11c97",
+        "20261013T184912-single-5029baf1"
+      ]
+    },
+    "15-isolated": {
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.9979906229068989,
+      "C5": 0.7804232804232805,
+      "C6": 0.7241379310344828,
+      "C7": 0.0,
+      "silent_numbers": 0,
+      "C8": 0,
+      "cross_rate": 0.0,
+      "counts": {
+        "correct_fields": 295,
+        "fields": 378,
+        "filled": 299,
+        "valid_sources": 299,
+        "sources": 299,
+        "faithful": 1490,
+        "facts": 1493,
+        "invented": 0,
+        "silent_numbers": 0,
+        "cross": 0,
+        "correct_traps": 63,
+        "traps": 87,
+        "parser_calls": 255,
+        "parser_success": 255
+      },
+      "leakage_attempts": 241,
+      "run_ids": [
+        "20261013T185007-isolated-de612e19",
+        "20261013T185109-isolated-3164f33c",
+        "20261013T185115-isolated-f95dd73b"
+      ]
+    },
+    "15-single": {
+      "C1": 1.0,
+      "C2": 0.9962825278810409,
+      "C3": 1.0,
+      "C4": 1.0,
+      "C5": 0.7698412698412699,
+      "C6": 0.7701149425287356,
+      "C7": 0.0,
+      "silent_numbers": 0,
+      "C8": 0,
+      "cross_rate": 0.0,
+      "counts": {
+        "correct_fields": 291,
+        "fields": 378,
+        "filled": 297,
+        "valid_sources": 297,
+        "sources": 297,
+        "faithful": 1185,
+        "facts": 1185,
+        "invented": 0,
+        "silent_numbers": 0,
+        "cross": 0,
+        "correct_traps": 67,
+        "traps": 87,
+        "parser_calls": 269,
+        "parser_success": 268
+      },
+      "leakage_attempts": 304,
+      "run_ids": [
+        "20261013T185131-single-3b4becff",
+        "20261013T185233-single-a559fa9a",
+        "20261013T185238-single-2e210dbc"
+      ]
+    }
+  },
+  "change_results": [
+    {
+      "run_id": "20261013T185603-isolated-28f6f486",
+      "dataset": "development",
+      "mode": "isolated",
+      "completed": true,
+      "counts": {
+        "correct_fields": 62,
+        "fields": 63,
+        "filled": 63,
+        "valid_sources": 63,
+        "sources": 63,
+        "faithful": 414,
+        "facts": 415,
+        "invented": 0,
+        "silent_numbers": 0,
+        "cross": 0,
+        "correct_traps": 12,
+        "traps": 13,
+        "parser_calls": 44,
+        "parser_success": 44
+      },
+      "field_accuracy": 0.9841269841269841,
+      "source_validity": 1.0,
+      "supplier_fidelity": 0.9975903614457832,
+      "trap_accuracy": 0.9230769230769231,
+      "parse_rate": 1.0,
+      "invention_rate": 0.0,
+      "cross_rate": 0.0,
+      "leakage_attempts": 17,
+      "sent_leaks": 0,
+      "traps": [
+        {
+          "supplier_id": "S01",
+          "trap": "K1",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "trap": "K9",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "trap": "K2",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "trap": "K3",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "trap": "K4",
+          "applicable": true,
+          "correct": false
+        },
+        {
+          "supplier_id": "S03",
+          "trap": "K5",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "trap": "K6",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "trap": "K7",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "trap": "K8",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S07",
+          "trap": "K8",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "trap": "K1",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "trap": "K2",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "trap": "K3",
+          "applicable": true,
+          "correct": true
+        }
+      ],
+      "field_results": [
+        {
+          "supplier_id": "S01",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "defect_policy",
+          "correct": false
+        },
+        {
+          "supplier_id": "S04",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "defect_policy",
+          "correct": true
+        }
+      ],
+      "fidelity_errors": [
+        "S04-m004:报价单外数字=29"
+      ],
+      "change_completion": 1.0,
+      "stale_prices": 0
+    },
+    {
+      "run_id": "20261013T185648-isolated-38e3ca62",
+      "dataset": "development",
+      "mode": "isolated",
+      "completed": true,
+      "counts": {
+        "correct_fields": 60,
+        "fields": 63,
+        "filled": 63,
+        "valid_sources": 63,
+        "sources": 63,
+        "faithful": 438,
+        "facts": 438,
+        "invented": 0,
+        "silent_numbers": 0,
+        "cross": 0,
+        "correct_traps": 13,
+        "traps": 13,
+        "parser_calls": 44,
+        "parser_success": 44
+      },
+      "field_accuracy": 0.9523809523809523,
+      "source_validity": 1.0,
+      "supplier_fidelity": 1.0,
+      "trap_accuracy": 1.0,
+      "parse_rate": 1.0,
+      "invention_rate": 0.0,
+      "cross_rate": 0.0,
+      "leakage_attempts": 16,
+      "sent_leaks": 0,
+      "traps": [
+        {
+          "supplier_id": "S01",
+          "trap": "K1",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "trap": "K9",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "trap": "K2",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "trap": "K3",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "trap": "K4",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "trap": "K5",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "trap": "K6",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "trap": "K7",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "trap": "K8",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S07",
+          "trap": "K8",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "trap": "K1",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "trap": "K2",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "trap": "K3",
+          "applicable": true,
+          "correct": true
+        }
+      ],
+      "field_results": [
+        {
+          "supplier_id": "S01",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "defect_policy",
+          "correct": false
+        },
+        {
+          "supplier_id": "S02",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "defect_policy",
+          "correct": false
+        },
+        {
+          "supplier_id": "S03",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "defect_policy",
+          "correct": false
+        },
+        {
+          "supplier_id": "S05",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "defect_policy",
+          "correct": true
+        }
+      ],
+      "fidelity_errors": [],
+      "change_completion": 1.0,
+      "stale_prices": 0
+    },
+    {
+      "run_id": "20261013T185652-isolated-77ac8f78",
+      "dataset": "development",
+      "mode": "isolated",
+      "completed": true,
+      "counts": {
+        "correct_fields": 60,
+        "fields": 63,
+        "filled": 63,
+        "valid_sources": 63,
+        "sources": 63,
+        "faithful": 432,
+        "facts": 432,
+        "invented": 0,
+        "silent_numbers": 0,
+        "cross": 0,
+        "correct_traps": 12,
+        "traps": 13,
+        "parser_calls": 45,
+        "parser_success": 45
+      },
+      "field_accuracy": 0.9523809523809523,
+      "source_validity": 1.0,
+      "supplier_fidelity": 1.0,
+      "trap_accuracy": 0.9230769230769231,
+      "parse_rate": 1.0,
+      "invention_rate": 0.0,
+      "cross_rate": 0.0,
+      "leakage_attempts": 16,
+      "sent_leaks": 0,
+      "traps": [
+        {
+          "supplier_id": "S01",
+          "trap": "K1",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "trap": "K9",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "trap": "K2",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "trap": "K3",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "trap": "K4",
+          "applicable": true,
+          "correct": false
+        },
+        {
+          "supplier_id": "S03",
+          "trap": "K5",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "trap": "K6",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "trap": "K7",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "trap": "K8",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S07",
+          "trap": "K8",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "trap": "K1",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "trap": "K2",
+          "applicable": true,
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "trap": "K3",
+          "applicable": true,
+          "correct": true
+        }
+      ],
+      "field_results": [
+        {
+          "supplier_id": "S01",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S01",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S02",
+          "field": "defect_policy",
+          "correct": false
+        },
+        {
+          "supplier_id": "S03",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S03",
+          "field": "defect_policy",
+          "correct": false
+        },
+        {
+          "supplier_id": "S04",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S04",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S05",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S06",
+          "field": "defect_policy",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "unit_price",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "tax_included",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "tax_rate",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "printing_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "sample_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "shipping_fee",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "moq",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "lead_days",
+          "correct": true
+        },
+        {
+          "supplier_id": "S08",
+          "field": "defect_policy",
+          "correct": false
+        }
+      ],
+      "fidelity_errors": [],
+      "change_completion": 1.0,
+      "stale_prices": 0
+    }
+  ],
+  "elapsed_seconds": 651.6343650817871
+}

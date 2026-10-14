@@ -1,0 +1,54 @@
+{
+  "notice": "虚构演示数据",
+  "source": "runs/memory.json",
+  "status": "已完成",
+  "results": [
+    {
+      "run_id": "20261013T190039-isolated-22dcbbf0",
+      "memory": false,
+      "followup_rounds": 2.125,
+      "trap_accuracy": 0.5454545454545454,
+      "steps": 8
+    },
+    {
+      "run_id": "20261013T190039-isolated-eb980af5",
+      "memory": false,
+      "followup_rounds": 2.5,
+      "trap_accuracy": 0.8181818181818182,
+      "steps": 8
+    },
+    {
+      "run_id": "20261013T190040-isolated-3de47613",
+      "memory": false,
+      "followup_rounds": 2.375,
+      "trap_accuracy": 0.9090909090909091,
+      "steps": 8
+    },
+    {
+      "run_id": "20261013T190144-isolated-fddecfb7",
+      "memory": true,
+      "followup_rounds": 1.125,
+      "trap_accuracy": 0.6363636363636364,
+      "steps": 8
+    },
+    {
+      "run_id": "20261013T190148-isolated-e7fe3c81",
+      "memory": true,
+      "followup_rounds": 1.625,
+      "trap_accuracy": 1.0,
+      "steps": 8
+    },
+    {
+      "run_id": "20261013T190150-isolated-7612e4c6",
+      "memory": true,
+      "followup_rounds": 1.75,
+      "trap_accuracy": 1.0,
+      "steps": 8
+    }
+  ],
+  "r2_exclusions": [
+    "K6起订量",
+    "K7交期"
+  ],
+  "limitation": "固定R1档案快照；小样本且受拦截误报影响，不代表真实采购省时效果"
+}

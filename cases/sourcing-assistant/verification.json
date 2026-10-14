@@ -1,0 +1,30 @@
+{
+  "source": [
+    "runs/summary.json",
+    "runs/test-results.xml",
+    "runs/install-verification.json"
+  ],
+  "experiment_runs": 38,
+  "calls": 3179,
+  "tokens": 8158836,
+  "conservative_cny": 19.985922,
+  "tests": {
+    "tests": 44,
+    "failures": 0,
+    "errors": 0
+  },
+  "browser_checks": [
+    "创建询价",
+    "三家模拟报价",
+    "点击单价显示本家原话",
+    "含糊单价触发追问",
+    "补齐报价",
+    "数量变更为250后旧价失效",
+    "新价恢复且旧价保留",
+    "报告页显示真实G2及局限",
+    "供应商390×844视口"
+  ],
+  "fresh_install_verified": true,
+  "web_mode": "规则式mock跟进，不调用模型",
+  "user_validation": "未开始"
+}

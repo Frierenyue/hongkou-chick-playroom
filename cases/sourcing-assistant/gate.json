@@ -1,0 +1,111 @@
+{
+  "notice": "虚构供应商场景，真实模型调用；公开汇总不含提示词和密钥",
+  "source": "runs/gate.json",
+  "status": "通过",
+  "selected_round": 1,
+  "development": {
+    "C1": 1.0,
+    "C2": 1.0,
+    "C3": 1.0,
+    "C4": 1.0,
+    "C5": 0.9285714285714286,
+    "C6": 0.8461538461538461,
+    "C7": 0.0,
+    "silent_numbers": 0,
+    "C8": 0,
+    "cross_rate": 0.0,
+    "counts": {
+      "correct_fields": 117,
+      "fields": 126,
+      "filled": 120,
+      "valid_sources": 120,
+      "sources": 120,
+      "faithful": 502,
+      "facts": 502,
+      "invented": 0,
+      "silent_numbers": 0,
+      "cross": 0,
+      "correct_traps": 22,
+      "traps": 26,
+      "parser_calls": 82,
+      "parser_success": 82
+    },
+    "leakage_attempts": 52,
+    "run_ids": [
+      "20261013T183326-isolated-c3f07848",
+      "20261013T183407-isolated-b7fe1c66"
+    ]
+  },
+  "final_metrics": {
+    "isolated": {
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 1.0,
+      "C5": 0.9206349206349206,
+      "C6": 0.8205128205128205,
+      "C7": 0.0,
+      "silent_numbers": 0,
+      "C8": 0,
+      "cross_rate": 0.0,
+      "counts": {
+        "correct_fields": 174,
+        "fields": 189,
+        "filled": 181,
+        "valid_sources": 181,
+        "sources": 181,
+        "faithful": 728,
+        "facts": 728,
+        "invented": 0,
+        "silent_numbers": 0,
+        "cross": 0,
+        "correct_traps": 32,
+        "traps": 39,
+        "parser_calls": 128,
+        "parser_success": 128
+      },
+      "leakage_attempts": 87,
+      "run_ids": [
+        "20261013T183452-isolated-12d35f38",
+        "20261013T183535-isolated-548a05fa",
+        "20261013T183622-isolated-d03c69b7"
+      ]
+    },
+    "single": {
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": 0.9987261146496815,
+      "C5": 0.7936507936507936,
+      "C6": 0.8461538461538461,
+      "C7": 0.0,
+      "silent_numbers": 0,
+      "C8": 0,
+      "cross_rate": 0.0,
+      "counts": {
+        "correct_fields": 150,
+        "fields": 189,
+        "filled": 154,
+        "valid_sources": 154,
+        "sources": 154,
+        "faithful": 784,
+        "facts": 785,
+        "invented": 0,
+        "silent_numbers": 0,
+        "cross": 0,
+        "correct_traps": 33,
+        "traps": 39,
+        "parser_calls": 131,
+        "parser_success": 131
+      },
+      "leakage_attempts": 123,
+      "run_ids": [
+        "20261013T183702-single-632ac15b",
+        "20261013T183851-single-dde761c3",
+        "20261013T184032-single-cca2bf3f"
+      ]
+    }
+  },
+  "phase_calls": 623,
+  "limitation": "拦截命中含列表序号误报，组间比较受干扰，不能证明多agent优越或必要"
+}

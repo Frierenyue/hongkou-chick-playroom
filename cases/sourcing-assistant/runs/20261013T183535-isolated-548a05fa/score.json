@@ -1,0 +1,431 @@
+{
+  "run_id": "20261013T183535-isolated-548a05fa",
+  "dataset": "holdout",
+  "mode": "isolated",
+  "completed": true,
+  "counts": {
+    "correct_fields": 58,
+    "fields": 63,
+    "filled": 61,
+    "valid_sources": 61,
+    "sources": 61,
+    "faithful": 230,
+    "facts": 230,
+    "invented": 0,
+    "silent_numbers": 0,
+    "cross": 0,
+    "correct_traps": 10,
+    "traps": 13,
+    "parser_calls": 46,
+    "parser_success": 46
+  },
+  "field_accuracy": 0.9206349206349206,
+  "source_validity": 1.0,
+  "supplier_fidelity": 1.0,
+  "trap_accuracy": 0.7692307692307693,
+  "parse_rate": 1.0,
+  "invention_rate": 0.0,
+  "cross_rate": 0.0,
+  "leakage_attempts": 39,
+  "sent_leaks": 0,
+  "traps": [
+    {
+      "supplier_id": "S16",
+      "trap": "K1",
+      "applicable": true,
+      "correct": true
+    },
+    {
+      "supplier_id": "S16",
+      "trap": "K9",
+      "applicable": true,
+      "correct": true
+    },
+    {
+      "supplier_id": "S17",
+      "trap": "K2",
+      "applicable": true,
+      "correct": true
+    },
+    {
+      "supplier_id": "S17",
+      "trap": "K3",
+      "applicable": true,
+      "correct": true
+    },
+    {
+      "supplier_id": "S18",
+      "trap": "K4",
+      "applicable": true,
+      "correct": false
+    },
+    {
+      "supplier_id": "S18",
+      "trap": "K5",
+      "applicable": true,
+      "correct": true
+    },
+    {
+      "supplier_id": "S19",
+      "trap": "K6",
+      "applicable": true,
+      "correct": true
+    },
+    {
+      "supplier_id": "S20",
+      "trap": "K7",
+      "applicable": true,
+      "correct": true
+    },
+    {
+      "supplier_id": "S21",
+      "trap": "K8",
+      "applicable": true,
+      "correct": false
+    },
+    {
+      "supplier_id": "S22",
+      "trap": "K8",
+      "applicable": true,
+      "correct": true
+    },
+    {
+      "supplier_id": "S23",
+      "trap": "K1",
+      "applicable": true,
+      "correct": false
+    },
+    {
+      "supplier_id": "S23",
+      "trap": "K2",
+      "applicable": true,
+      "correct": true
+    },
+    {
+      "supplier_id": "S23",
+      "trap": "K3",
+      "applicable": true,
+      "correct": true
+    }
+  ],
+  "field_results": [
+    {
+      "supplier_id": "S16",
+      "field": "unit_price",
+      "correct": true
+    },
+    {
+      "supplier_id": "S16",
+      "field": "tax_included",
+      "correct": true
+    },
+    {
+      "supplier_id": "S16",
+      "field": "tax_rate",
+      "correct": true
+    },
+    {
+      "supplier_id": "S16",
+      "field": "printing_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S16",
+      "field": "sample_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S16",
+      "field": "shipping_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S16",
+      "field": "moq",
+      "correct": true
+    },
+    {
+      "supplier_id": "S16",
+      "field": "lead_days",
+      "correct": true
+    },
+    {
+      "supplier_id": "S16",
+      "field": "defect_policy",
+      "correct": true
+    },
+    {
+      "supplier_id": "S17",
+      "field": "unit_price",
+      "correct": true
+    },
+    {
+      "supplier_id": "S17",
+      "field": "tax_included",
+      "correct": true
+    },
+    {
+      "supplier_id": "S17",
+      "field": "tax_rate",
+      "correct": true
+    },
+    {
+      "supplier_id": "S17",
+      "field": "printing_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S17",
+      "field": "sample_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S17",
+      "field": "shipping_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S17",
+      "field": "moq",
+      "correct": true
+    },
+    {
+      "supplier_id": "S17",
+      "field": "lead_days",
+      "correct": true
+    },
+    {
+      "supplier_id": "S17",
+      "field": "defect_policy",
+      "correct": true
+    },
+    {
+      "supplier_id": "S18",
+      "field": "unit_price",
+      "correct": true
+    },
+    {
+      "supplier_id": "S18",
+      "field": "tax_included",
+      "correct": true
+    },
+    {
+      "supplier_id": "S18",
+      "field": "tax_rate",
+      "correct": true
+    },
+    {
+      "supplier_id": "S18",
+      "field": "printing_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S18",
+      "field": "sample_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S18",
+      "field": "shipping_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S18",
+      "field": "moq",
+      "correct": true
+    },
+    {
+      "supplier_id": "S18",
+      "field": "lead_days",
+      "correct": true
+    },
+    {
+      "supplier_id": "S18",
+      "field": "defect_policy",
+      "correct": false
+    },
+    {
+      "supplier_id": "S19",
+      "field": "unit_price",
+      "correct": true
+    },
+    {
+      "supplier_id": "S19",
+      "field": "tax_included",
+      "correct": true
+    },
+    {
+      "supplier_id": "S19",
+      "field": "tax_rate",
+      "correct": true
+    },
+    {
+      "supplier_id": "S19",
+      "field": "printing_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S19",
+      "field": "sample_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S19",
+      "field": "shipping_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S19",
+      "field": "moq",
+      "correct": true
+    },
+    {
+      "supplier_id": "S19",
+      "field": "lead_days",
+      "correct": true
+    },
+    {
+      "supplier_id": "S19",
+      "field": "defect_policy",
+      "correct": false
+    },
+    {
+      "supplier_id": "S20",
+      "field": "unit_price",
+      "correct": true
+    },
+    {
+      "supplier_id": "S20",
+      "field": "tax_included",
+      "correct": true
+    },
+    {
+      "supplier_id": "S20",
+      "field": "tax_rate",
+      "correct": true
+    },
+    {
+      "supplier_id": "S20",
+      "field": "printing_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S20",
+      "field": "sample_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S20",
+      "field": "shipping_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S20",
+      "field": "moq",
+      "correct": true
+    },
+    {
+      "supplier_id": "S20",
+      "field": "lead_days",
+      "correct": true
+    },
+    {
+      "supplier_id": "S20",
+      "field": "defect_policy",
+      "correct": true
+    },
+    {
+      "supplier_id": "S21",
+      "field": "unit_price",
+      "correct": true
+    },
+    {
+      "supplier_id": "S21",
+      "field": "tax_included",
+      "correct": true
+    },
+    {
+      "supplier_id": "S21",
+      "field": "tax_rate",
+      "correct": true
+    },
+    {
+      "supplier_id": "S21",
+      "field": "printing_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S21",
+      "field": "sample_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S21",
+      "field": "shipping_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S21",
+      "field": "moq",
+      "correct": true
+    },
+    {
+      "supplier_id": "S21",
+      "field": "lead_days",
+      "correct": true
+    },
+    {
+      "supplier_id": "S21",
+      "field": "defect_policy",
+      "correct": false
+    },
+    {
+      "supplier_id": "S23",
+      "field": "unit_price",
+      "correct": true
+    },
+    {
+      "supplier_id": "S23",
+      "field": "tax_included",
+      "correct": false
+    },
+    {
+      "supplier_id": "S23",
+      "field": "tax_rate",
+      "correct": false
+    },
+    {
+      "supplier_id": "S23",
+      "field": "printing_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S23",
+      "field": "sample_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S23",
+      "field": "shipping_fee",
+      "correct": true
+    },
+    {
+      "supplier_id": "S23",
+      "field": "moq",
+      "correct": true
+    },
+    {
+      "supplier_id": "S23",
+      "field": "lead_days",
+      "correct": true
+    },
+    {
+      "supplier_id": "S23",
+      "field": "defect_policy",
+      "correct": true
+    }
+  ],
+  "fidelity_errors": [],
+  "change_completion": 0.0,
+  "stale_prices": 0
+}
